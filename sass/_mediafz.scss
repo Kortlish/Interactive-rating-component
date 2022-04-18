@@ -1,0 +1,73 @@
+@media (min-width: 460px) {
+	.card {
+		max-width: 40em;
+		border-radius: 30px;
+		padding: 3em;
+		.card-content-1 {
+			.star {
+				margin-bottom: 3.5em;
+				width: 4.4rem;
+				height: 4.4rem;
+
+				img {
+					width: 1.5rem;
+					height: 1.5rem;
+				}
+			}
+
+			.title {
+				font-size: 2.4rem;
+				margin-bottom: 0.6em;
+			}
+
+			.text {
+				font-size: 1.5rem;
+			}
+
+			.rating-box {
+				justify-content: space-evenly;
+				.rating-item {
+					min-width: 4.7rem;
+					height: 4.7rem;
+					font-size: 1.2rem;
+
+					div {
+						font-size: 1.5rem;
+						transform: translateY(10%);
+					}
+				}
+			}
+
+			.submit-btn {
+				margin-top: 3.2em;
+				div {
+					font-size: 1.4rem;
+				}
+			}
+		}
+		.card-content-2 {
+			margin-top: 1.5em;
+			img {
+				width: 16rem;
+			}
+
+			.resault {
+				margin-top: 3.5em;
+				padding: 0.8em 1.8em;
+
+				.selected {
+					font-size: 1.4rem;
+				}
+			}
+
+			.title {
+				margin-top: 1.5em;
+				font-size: 2.5em;
+			}
+
+			.text p {
+				font-size: 1.5rem;
+			}
+		}
+	}
+}
